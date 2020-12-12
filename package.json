@@ -1,0 +1,48 @@
+{
+  "name": "caz-pages",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "caz-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/caz-pages#readme",
+  "bugs": {
+    "url": "https://github.com/zce/caz-pages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/caz-pages.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": " ",
+    "email": " 785918558@qq.com",
+    "url": "http://www.qq.com"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "standard --fix && jest --coverage"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "26.6.3",
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
